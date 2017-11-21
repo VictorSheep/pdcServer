@@ -4,9 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "watch": "webpack --watch",
     "server": "nodemon server.js",
-    "dev": "start npm run watch && start npm run server"
+    "dev": "start npm run server"
   },
   "author": "@VictorSheep, @Jump78",
   "license": "ISC",
@@ -17,10 +16,10 @@
     "babel-preset-stage-0": "^6.16.0",
     "live-server": "^1.1.0",
     "node-libs-browser": "^1.0.0",
-    "nodemon": "^1.11.0",
-    "webpack": "^1.13.2"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^4.13.4"
   }
 }
